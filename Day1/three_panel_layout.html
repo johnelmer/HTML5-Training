@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Three Panel Layout</title>
+    <style >
+      body {
+        margin: 0;
+      }
+      .row {
+        float: left;
+        display: flex;
+        text-align: center;
+      }
+      .text {
+        position: relative;
+        top: 50%;
+        color: white;
+        font-family: arial;
+        font-size: 20px;
+      }
+      .col-12 {
+        width: 100vw;
+        height: 50vh;
+      }
+      .col-6 {
+        width: 50vw;
+        height: 50vh;
+      }
+      .panel-top {
+        background-color: red;
+      }
+      .panel-left {
+        background-color: green;
+      }
+      .panel-right {
+        background-color: violet;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 panel-top">
+          <span class="text">Cell 1</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 panel-left">
+          <span class="text">Cell 2</span>
+        </div>
+        <div class="col-6 panel-right">
+          <span class="text">Cell 3</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

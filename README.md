@@ -33,3 +33,5 @@ Activity        File Name
 10          ajax_countries.html
 
 11          layout_exercise.html
+
+12          three_panel_layout.html
