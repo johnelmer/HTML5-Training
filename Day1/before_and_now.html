@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DIV and SPAN: Before and Now</title>
+    <style media="screen">
+      h1 {
+        font-family: sans-serif;
+        margin-bottom: 8px;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .header1 {
+        font-family: sans-serif;
+        margin-bottom: 8px;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      p {
+        margin-bottom: 8px;
+      }
+      .paragraph {
+        margin-bottom: 8px;
+      }
+      .boldtext {
+        font-weight: bold;
+      }
+      .italictext {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is how one would trditionally do HTML formatting -->
+    <h1>This is a header</h1>
+    <p>This is a paragraph that contains <b>bold text</b> and <i>italic text</i>.</p>
+    <!-- This can also all be replaced with DIVs and SPANs -->
+    <div class="header1">This is a header</div>
+    <div class="paragraph">
+      This is a paragraph that contains <span class="boldtext"> bold text</span> and <span class="italictext"> italic text</span>.
+    </div>
+  </body>
+</html>

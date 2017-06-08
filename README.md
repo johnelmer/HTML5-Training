@@ -25,3 +25,5 @@ Activity        File Name
 7           ParagraphSwitcher/
 
                 with modification to include colors on switch
+
+8           before_and_now.html
