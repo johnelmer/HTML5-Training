@@ -16,6 +16,8 @@
 button {
   text-align: center;
   padding: 10px;
+  float: left;
+  width: 100%;
   background-color: white;
   border-radius: 5px;
   box-shadow: none;
@@ -23,5 +25,13 @@ button {
   border-width: thin;
 }
 button:hover {
-    background-color: rgb(175, 252, 173);
+  background-color: rgb(175, 252, 173);
+}
+.col-4 {
+  width: 33.33%;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
