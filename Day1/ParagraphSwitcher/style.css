@@ -1,6 +1,12 @@
 .one {
   color: blue;
 }
+#paragraphOne {
+  font-weight: bold;
+}
+#paragraphTwo {
+  font-style: italic;
+}
 .two {
   color: red;
 }
@@ -8,13 +14,13 @@
   color: green;
 }
 button {
-    text-align: center;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: none;
-    border: solid;
-    border-width: thin;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: none;
+  border: solid;
+  border-width: thin;
 }
 button:hover {
     background-color: rgb(175, 252, 173);
