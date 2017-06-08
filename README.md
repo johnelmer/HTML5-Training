@@ -27,3 +27,5 @@ Activity        File Name
                 with modification to include colors on switch
 
 8           before_and_now.html
+
+9           elements_id_and_classes.html
