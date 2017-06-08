@@ -1,0 +1,37 @@
+#header {
+  font-weight: bold;
+  font-size: 40px;
+  background-color: red;
+  color: white;
+  width: 100%;
+  font-family: arial;
+  text-align: center;
+  padding: 5px;
+}
+body {
+  margin: 0;
+}
+.content .article {
+  padding: 1%;
+  margin: 15px;
+}
+.article {
+  background-color: rgb(251, 219, 196);
+  /*margin: 8px;*/
+}
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+.text {
+  margin: 5px;
+}
+.footer {
+  width: 100%;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(22, 190, 93);
+  padding: 5px;
+  font-family: arial;
+}

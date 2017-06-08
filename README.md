@@ -31,3 +31,5 @@ Activity        File Name
 9           elements_id_and_classes.html
 
 10          ajax_countries.html
+
+11          layout_exercise.html
