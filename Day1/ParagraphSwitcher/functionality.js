@@ -4,30 +4,27 @@ window.onload = function() {
     var linkThree = document.getElementById('switchOneThree');
     linkOne.onclick = function() {
         var content = document.getElementById('paragraphOne').innerHTML;
+        var contentClassName = document.getElementById('paragraphOne').className;
         document.getElementById('paragraphOne').innerHTML = document.getElementById('paragraphTwo').innerHTML;
         document.getElementById('paragraphTwo').innerHTML = content;
-        // var paragraphOneId = document.getElementById('paragraphOne').id;
-        // var paragraphTwoId = document.getElementById('paragraphTwo').id;
-        // document.getElementById('paragraphTwo').id = paragraphOneId;
-        // document.getElementById('paragraphOne').id = paragraphTwoId;
+        document.getElementById('paragraphOne').className = document.getElementById('paragraphTwo').className;
+        document.getElementById('paragraphTwo').className = contentClassName;
     }
     linkTwo.onclick = function() {
         var content = document.getElementById('paragraphTwo').innerHTML;
+        var contentClassName = document.getElementById('paragraphTwo').className;
         document.getElementById('paragraphTwo').innerHTML = document.getElementById('paragraphThree').innerHTML;
         document.getElementById('paragraphThree').innerHTML = content;
-        // var paragraphThreeId = document.getElementById('paragraphThree').id;
-        // var paragraphTwoId = document.getElementById('paragraphTwo').id;
-        // document.getElementById('paragraphTwo').id = paragraphThreeId;
-        // document.getElementById('paragraphThree').id = paragraphTwoId;
+        document.getElementById('paragraphTwo').className = document.getElementById('paragraphThree').className;
+        document.getElementById('paragraphThree').className = contentClassName;
     }
     linkThree.onclick = function() {
         var content = document.getElementById('paragraphOne').innerHTML;
+        var contentClassName = document.getElementById('paragraphOne').className;
         document.getElementById('paragraphOne').innerHTML = document.getElementById('paragraphThree').innerHTML;
         document.getElementById('paragraphThree').innerHTML = content;
-        // var paragraphThreeId = document.getElementById('paragraphThree').id;
-        // var paragraphOneId = document.getElementById('paragraphOne').id;
-        // document.getElementById('paragraphOne').id = paragraphThreeId;
-        // document.getElementById('paragraphThree').id = paragraphOneId;
+        document.getElementById('paragraphOne').className = document.getElementById('paragraphThree').className;
+        document.getElementById('paragraphThree').className = contentClassName;
 
     }
 }

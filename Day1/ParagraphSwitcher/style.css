@@ -1,9 +1,9 @@
-#paragraphOne {
+.one {
   color: blue;
 }
-#paragraphTwo {
+.two {
   color: red;
 }
-#paragraphThree {
+.three {
   color: yellow;
 }
