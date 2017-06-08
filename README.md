@@ -7,6 +7,6 @@ Projects and outputs by: John Elmer Loretizo
 
 Day 1
 Activity        File Name
-1           oldstylewebapp.html
-2           separatingcontent.html
-3           separatingfunctionality.html
+1           old_style_web_app.html
+2           separating_content.html
+3           separating_content2.html
