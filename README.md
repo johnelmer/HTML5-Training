@@ -4,3 +4,8 @@ June 8-10 and 13-14, 2017
 
 
 Projects and outputs by: John Elmer Loretizo
+
+Day 1
+Activity        File Name
+1           oldstylewebapp.html
+2           separatingcontent.html

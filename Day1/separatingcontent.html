@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using CSS to separate appearance and content</title>
+        <!-- Appearance is declared in a separate style block -->
+        <style>
+            .important {
+                font-weight: bold;
+            }
+            .warning {
+                color: red;
+            }
+        </style>
+    </head>
+    <!-- The actual document body contains only content -->
+    <!-- and does not say anything about appearance -->
+    <body>
+      <h1>This is a sample</h1> Welcome to the program.
+      <span class="important">We are not saying that this is how things should be done.</span> Rather, we are saying that this is how things
+      <span class="warning">used to be</span>.<p><a href="#" onclick="javascript:alert('this link was clicked');">This is a link you should click</a></p>
+    </body>
+</html>
