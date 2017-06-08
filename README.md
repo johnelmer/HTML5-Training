@@ -12,10 +12,12 @@ Activity        File Name
 
 2           separating_content.html
 
-3           separating_content2.html
+3           separating_content2.html (refactor activity)
 
 4           NewsArticle/
 
                 with modification to separate files
 
 5           dom_frustrating.html
+
+6           dom_classes.html
