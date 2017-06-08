@@ -14,4 +14,8 @@ Activity        File Name
 
 3           separating_content2.html
 
-4           news_article.html
+4           NewsArticle/
+
+                with modification to separate files
+
+5           dom_frustrating.html
