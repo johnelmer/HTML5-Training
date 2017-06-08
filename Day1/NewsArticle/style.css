@@ -1,0 +1,23 @@
+.title {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.annotation {
+    color: gray;
+    font-size: 90%;
+}
+button {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    border: solid;
+    border-width: thin;
+}
+button:hover {
+    background-color: rgb(131, 228, 129);
+}
+.article {
+    justify-content: space-around;
+}
