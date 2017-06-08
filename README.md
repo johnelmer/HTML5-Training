@@ -35,3 +35,7 @@ Activity        File Name
 11          layout_exercise.html
 
 12          three_panel_layout.html
+
+13          fixed_header_and_footer.html
+
+                with modification of adding a sidebar
