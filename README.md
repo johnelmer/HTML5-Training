@@ -9,3 +9,4 @@ Day 1
 Activity        File Name
 1           oldstylewebapp.html
 2           separatingcontent.html
+3           separatingfunctionality.html
