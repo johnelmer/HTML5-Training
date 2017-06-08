@@ -21,3 +21,7 @@ Activity        File Name
 5           dom_frustrating.html
 
 6           dom_classes.html
+
+7           ParagraphSwitcher/
+
+                with modification to include colors on switch

@@ -5,5 +5,17 @@
   color: red;
 }
 .three {
-  color: yellow;
+  color: green;
+}
+button {
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: none;
+    border: solid;
+    border-width: thin;
+}
+button:hover {
+    background-color: rgb(175, 252, 173);
 }
