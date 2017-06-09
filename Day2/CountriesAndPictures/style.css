@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+#home, #countries, #pictures {
+  display: none;
+}
+#header {
+  width: 100%;
+  height: 64px;
+  /*position: fixed;*/
+  top: 0px;
+  background: rgba(100, 100, 255, 0.5);
+}
+#header > #name {
+  font-weight: bold;
+  float: left;
+}
+#menu a, #menubutton a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font: arial;
+  font-size: 13px;
+}
+#header > h1 {
+  margin: 16px 0 0 16px;
+  color: white;
+  font: bold 32px arial;
+  float: left;
+}
+#content > p{
+  top: 55px;
+  bottom: 27px;
+  float: left;
+  overflow-y: scroll;
+  left: 225px;
+  right: 0px;
+}
+#footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 32px;
+  position: fixed;
+  bottom: 0px;
+}
+#footer > p {
+  margin: 8px;
+  color: white;
+  font: bold 16px arial;
+}
+img {
+  height: 100%;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: fixed;
+  top: 64px;
+  bottom: 50px;
+  float: left;
+  overflow-y: scroll;
+  left: 0px;
+  right: 0px;
+}
+body > dir {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+a.button {
+  width: 135px;
+  background: -webkit-linear-gradient(top, #a9db80, #96c56f);
+  background: -moz-linear-gradient(top, #a9db80, #96c56f);
+  background: -ms-linear-gradient(top, #a9db80, #96c56f);
+  background: -o-linear-gradient(top, #a9db80, #96c56f);
+  background: linear-gradient(to bottom, #a9db80, #96c56f);
+  border-radius: 8px;
+  border: 1px solid #444444;
+  box-shadow: 0px 1px 1px #888888 inset, 1px 1px 3px #222222;
+  color: #6d954e;
+  text-decoration: none;
+  text-align: center;
+  padding: 16px 32px 16px 32px;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.4);
+  font-family: arial;
+}
+a.button:hover {
+  background: rgba(120, 160, 120, 1);
+  color: white;
+}
+img {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a.button:active {
+  background: rgba(80, 120, 80, 1);
+}
+@media only screen and (min-width: 600px) {
+  #menu {
+    float: right;
+    display: block;
+  }
+  .menuitem {
+    display: inline;
+  }
+  .menuitem + .menuitem {
+    border-left: 1px solid white;
+    margin-left: 8px;
+    padding-left: 8px;
+  }
+  #menubutton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 599px) {
+  #menubutton {
+    display: inline;
+    float: right;
+  }
+  #menu {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+    background: black;
+    padding: 16px;
+  }
+  .showmenu {
+    display: block;
+  }
+  .hiddenmenu {
+    display: none;
+  }
+  .menuitem {
+    display: block;
+  }
+  .menuitem + .menuitem {
+    margin-top: 8px;
+  }
+}
