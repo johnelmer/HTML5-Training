@@ -44,3 +44,7 @@ Day 2
 Activity        File Name
 
 1           fixed_header_and_footer2.html
+
+2           buttons_sample.html
+
+3           ImageViewer/
