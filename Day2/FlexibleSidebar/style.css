@@ -118,7 +118,7 @@ a.button:active {
     width: 90vw;
     position: relative;
     bottom: 32px;
-    background-color: rgba(245, 41, 34, 0.5);
+    background-color: white;
     overflow-y: scroll;
     border-radius: 8px;
   }
