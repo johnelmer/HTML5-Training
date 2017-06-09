@@ -39,3 +39,8 @@ Activity        File Name
 13          fixed_header_and_footer.html
 
                 with modification of adding a sidebar
+
+Day 2
+Activity        File Name
+
+1           fixed_header_and_footer2.html
