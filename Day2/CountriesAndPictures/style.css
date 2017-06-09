@@ -51,8 +51,7 @@ body {
   font: bold 16px arial;
 }
 img {
-  height: 100%;
-  width: auto;
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -90,11 +89,6 @@ a.button:hover {
   background: rgba(120, 160, 120, 1);
   color: white;
 }
-img {
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
 a.button:active {
   background: rgba(80, 120, 80, 1);
 }
@@ -114,6 +108,7 @@ a.button:active {
   #menubutton {
     display: none;
   }
+
 }
 @media only screen and (max-width: 599px) {
   #menubutton {
@@ -126,6 +121,10 @@ a.button:active {
     right: 0px;
     background: black;
     padding: 16px;
+  }
+  img {
+    width: 100vw;
+    height: auto;
   }
   .showmenu {
     display: block;
