@@ -48,3 +48,5 @@ Activity        File Name
 2           buttons_sample.html
 
 3           ImageViewer/
+
+                with modification of adding a popup

@@ -17,3 +17,34 @@ window.onload = function() {
         img.setAttribute("src", "../ImageViewer/assets/img3.jpg");
     }
 }
+function popup1(text) {
+    var popup = document.createElement('div');
+    popup.className = 'fullscreenpopup';
+    var container = document.createElement('div');
+    container.className = 'fullscreenpopup_container';
+    popup.appendChild(container);
+    var content = document.createElement('div');
+    content.className = 'fullscreenpopup_content';
+    container.appendChild(content);
+    var p1 = document.createElement('p');
+    p1.appendChild(document.createTextNode(text));
+    content.appendChild(p1);
+    var p11 = document.createElement('p');
+    var input = document.createElement('input');
+    input.setAttribute('type', 'text');
+    p11.appendChild(input);
+    content.appendChild(p11);
+    var p2 = document.createElement('p');
+    content.appendChild(p2);
+    var button = document.createElement('a');
+    button.href = '#';
+    button.className = 'button';
+    button.onclcick = function() {
+        document.body.removeChild(popup);
+    }
+    p2.appendChild(button);
+    var span = document.createElement('span');
+    span.appendChild(document.createTextNode('OK'));
+    button.appendChild(span);
+    document.body.appendChild(popup);
+}
