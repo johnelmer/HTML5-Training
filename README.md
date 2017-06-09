@@ -56,3 +56,5 @@ Activity        File Name
 5           FlexibleSidebar/
 
                 with modification for media queries and changing texts
+
+6           responsive_header.html
