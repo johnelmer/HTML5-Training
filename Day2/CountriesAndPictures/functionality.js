@@ -1,4 +1,3 @@
-// Countries AJAX
 function onClick() {
   var xhr = new XMLHttpRequest();
   xhr.open(
@@ -41,9 +40,6 @@ window.onload = function() {
     picturesContent.style.display = 'block';
     homeContent.style.display = 'none';
     countriesContent.style.display = 'none';
-
-      // images[i]
-    // console.log(images[i]);
     var i = 0;
     img.setAttribute("src", images[images.length - 1]);
     setInterval(function() {
@@ -53,9 +49,6 @@ window.onload = function() {
         i = 0;
       }
     }, 5000);
-      // ;
-
-
   }
   clearButton.onclick = function() {
       document.getElementById('list').innerHTML = "";
@@ -68,8 +61,4 @@ window.onload = function() {
       menu.className = 'hiddenmenu'
     }
   }
-
-
-
 }
-// Ends Here
