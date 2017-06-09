@@ -116,12 +116,9 @@ a.button:active {
     padding: 10px;
     display: inline-block;
     width: 90vw;
-    /*margin-top: 55px;
-    margin-bottom: 27px;*/
     position: relative;
-    top: 64px;
     bottom: 32px;
-    margin: 10px;
+    /*margin: 10px;*/
     background-color: rgba(245, 41, 34, 0.5);
     overflow-y: scroll;
     border-radius: 8px;
@@ -129,14 +126,15 @@ a.button:active {
   #content{
     display: inline-block;
     position: relative;
-    /*top: 55px;
-    bottom: 27px;*/
     width: 90vw;
     overflow-y: scroll;
     left: 0px;
     right: 0px;
     padding: 10px;
     margin: 5px;
+  }
+  #header, #footer {
+    display: none;
   }
 }
 @media only screen and (min-width: 500px) {
