@@ -24,8 +24,6 @@ body {
   overflow-y: scroll;
   left: 225px;
   right: 0px;
-  /*width: 100%;*/
-  /*display: table-cell;*/
 }
 #footer {
   width: 100%;
@@ -80,15 +78,9 @@ a.button:hover {
 }
 img {
   height: 100%;
-  position: relative;
-  float: none;
-  background-position: center;
-  vertical-align: middle;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   display: block;
-
 }
 a.button:active {
   background: rgba(80, 120, 80, 1);

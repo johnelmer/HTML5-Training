@@ -32,6 +32,7 @@ function popup1(text) {
     var p11 = document.createElement('p');
     var input = document.createElement('input');
     input.setAttribute('type', 'text');
+    input.setAttribute('id', 'inputURL');
     p11.appendChild(input);
     content.appendChild(p11);
     var p2 = document.createElement('p');
@@ -39,12 +40,17 @@ function popup1(text) {
     var button = document.createElement('a');
     button.href = '#';
     button.className = 'button';
-    button.onclcick = function() {
-        document.body.removeChild(popup);
-    }
     p2.appendChild(button);
     var span = document.createElement('span');
     span.appendChild(document.createTextNode('OK'));
     button.appendChild(span);
     document.body.appendChild(popup);
+    var picURL = '';
+    button.onclick = function() {
+        picURL = document.getElementById('inputURL').value;
+        var img = document.getElementById('picture');
+        img.setAttribute("src", picURL);
+        document.body.removeChild(popup);
+    }
+
 }
