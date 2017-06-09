@@ -52,3 +52,7 @@ Activity        File Name
                 with modification of adding a popup
 
 4           media_queries.html
+
+5           FlexibleSidebar/
+
+                with modification for media queries and changing texts
