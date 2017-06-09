@@ -123,6 +123,11 @@ a.button:active {
   #menulink {
     display: inline;
     float: right;
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-right: 5px;
   }
   #menulink:hover {
     color: white;
