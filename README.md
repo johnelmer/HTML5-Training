@@ -58,3 +58,7 @@ Activity        File Name
                 with modification for media queries and changing texts
 
 6           responsive_header.html
+
+7           ImageViewer2/
+
+                modified previous image viewer with capacity to be responsive

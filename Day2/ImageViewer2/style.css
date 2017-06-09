@@ -1,13 +1,12 @@
 body {
   margin: 0;
-  display: table;
   height: 100%;
   width: 100%;
 }
 #header {
   width: 100%;
   height: 64px;
-  position: fixed;
+  /*position: fixed;*/
   top: 0px;
   background: rgba(100, 100, 255, 0.5);
 }
@@ -15,9 +14,9 @@ body {
   margin: 16px 0 0 16px;
   color: white;
   font: bold 32px arial;
+  float: left;
 }
 #content > p{
-  position: fixed;
   top: 55px;
   bottom: 27px;
   float: left;
@@ -35,8 +34,6 @@ body {
 #sidebar {
   margin: 8px;
   padding: 5px;
-  position: fixed;
-  float: left;
   width: 200px;
   top: 64px;
   bottom: 32px;
@@ -56,7 +53,6 @@ body > dir {
 }
 a.button {
   width: 135px;
-  display: inline-block;
   background: -webkit-linear-gradient(top, #a9db80, #96c56f);
   background: -moz-linear-gradient(top, #a9db80, #96c56f);
   background: -ms-linear-gradient(top, #a9db80, #96c56f);
@@ -80,7 +76,6 @@ img {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  display: block;
 }
 a.button:active {
   background: rgba(80, 120, 80, 1);
@@ -104,4 +99,53 @@ a.button:active {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+}
+@media only screen and (min-width: 600px) {
+  a.button {
+    display: inline-block;
+  }
+  #sidebar {
+    position: fixed;
+    float: left;
+  }
+  img {
+    display: block;
+  }
+  #content > p {
+    position: fixed;
+    float: left;
+  }
+  #menulink {
+    display: none;
+  }
+}
+@media only screen and (max-width: 599px) {
+  #menulink {
+    display: inline;
+    float: right;
+  }
+  #menulink:hover {
+    color: white;
+  }
+  #sidebar {
+    position: absolute;
+    top: 48px;
+    right: 0px;
+    margin: 0px;
+    background-color: transparent;
+  }
+  .showmenu {
+    display: block;
+  }
+  .hiddenmenu {
+    display: none;
+  }
+  img {
+    width: 100vw;
+    height: auto;
+  }
+  a.button {
+    position: relative;
+    float: right;
+  }
 }

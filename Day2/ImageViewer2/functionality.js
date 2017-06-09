@@ -2,6 +2,7 @@ window.onload = function() {
     var first = document.getElementById('first');
     var second = document.getElementById('second');
     var third = document.getElementById('third');
+    var sidebar = document.getElementById('sidebar');
     first.onclick = function() {
         var img = document.getElementById('picture');
         img.setAttribute("src", "../ImageViewer2/assets/img1.jpg");
@@ -15,12 +16,11 @@ window.onload = function() {
         img.setAttribute("src", "../ImageViewer2/assets/img3.jpg");
     }
     document.getElementById('menulink').onclick = function() {
-        var menu = document.getElementById('menu');
-        if (menu.className != 'showmenu') {
-            menu.className = 'showmenu';
+        if (sidebar.className != 'showmenu') {
+            sidebar.className = 'showmenu';
         }
         else {
-            menu.className = 'hiddenmenu'
+            sidebar.className = 'hiddenmenu'
         }
     }
 }
