@@ -25,20 +25,7 @@ body {
   left: 225px;
   right: 0px;
 }
-#one {
-  display: none;
-
-}
-#two {
-  display: none;
-}
-#three {
-  display: none;
-}
-#four {
-  display: none;
-}
-#five {
+#one, #two, #three, #four, #five {
   display: none;
 }
 #footer {
@@ -138,7 +125,7 @@ a.button:active {
     overflow-y: scroll;
     border-radius: 8px;
   }
-  #content > p{
+  #content{
     display: inline-block;
     position: relative;
     /*top: 55px;
