@@ -72,4 +72,6 @@ Activity        File Name
 
 2           transition_via_javascript.html
 
-3            FadeChangeImages/
+3           FadeChangeImages/
+
+4           ImageViewer/
