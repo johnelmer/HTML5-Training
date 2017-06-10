@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Canvas with Timer</title>
+    <script>
+      var color = "#00FF00";
+      function update() {
+        var c = document.getElementById("mycanvas");
+        var ctx = c.getContext("2d");
+        if (color == "#00FF00") {
+          color = "#FF0000";
+        }
+        else {
+          color = "#00FF00";
+        }
+        ctx.fillStyle = color;
+        ctx.fillRect(10, 10, 100, 100);
+      }
+      window.onload = function() {
+        setInterval("update()", 1000);
+        update();
+      }
+    </script>
+  </head>
+  <body>
+    <canvas id="mycanvas" width="400" height="400"></canvas>
+  </body>
+</html>

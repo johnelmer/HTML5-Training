@@ -79,3 +79,5 @@ Activity        File Name
 5           css_animation.html
 
 6           canvas_sample.html
+
+7           canvas_with_timer.html
