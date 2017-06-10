@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+/*@-webkit-keyframes moveit {
+  from {
+    -webkit-transform: rotate(0deg);
+   }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}*/
+#mycanvas {
+  position: fixed;
+  float: left;
+}
+/*#movable {
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: moveit;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}*/

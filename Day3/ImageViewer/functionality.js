@@ -33,17 +33,6 @@ function fadeChangeImage(imageid, newurl) {
   img.addEventListener('webkitTransitionEnd', endhandler, false);
   img.style.opacity = 0.0;
 }
-function fadePopup() {
-  var popup = document.getElementById('fullscreenpopup');
-  var endhandler = function() {
-    popup.removeEventListener('transitionend', endhandler, false);
-    popup.removeEventListener('wekitTransitionEnd', endhandler, false);
-    popup.style.opacity = 1.0;
-  }
-  popup.addEventListener('transitionend', endhandler, false);
-  popup.addEventListener('webkitTransitionEnd', endhandler, false);
-  popup.style.opacity = 0.0;
-}
 function popup1(text) {
   var popup = document.createElement('div');
   popup.className = 'fullscreenpopup';
