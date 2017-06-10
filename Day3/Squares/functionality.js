@@ -18,7 +18,7 @@ function drawSquares() {
   var k = 0;
   while (k < c.height) {
     for (var i = 0; i < c.width; i++) {
-      ctx.fillStyle= '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
+      ctx.fillStyle= '#' + Math.floor((Math.random()*16777215)).toString(16);
       ctx.fillRect(i * 100, k, 100,100);
     }
     k += 100;
