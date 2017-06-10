@@ -71,3 +71,5 @@ Activity        File Name
 1           hover_transformations.html
 
 2           transition_via_javascript.html
+
+3            FadeChangeImages/
