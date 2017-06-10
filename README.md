@@ -77,3 +77,5 @@ Activity        File Name
 4           ImageViewer/
 
 5           css_animation.html
+
+6           canvas_sample.html
