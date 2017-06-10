@@ -15,6 +15,7 @@ function move() {
   c.height = window.innerHeight;
   var ctx = c.getContext("2d");
   ctx.fillStyle = color;
+  ctx.fillRect(x, y, 100, 100);
   x += xMov;
   if (x + 100 > window.innerWidth) {
     xMov = -1;
@@ -29,15 +30,12 @@ function move() {
   if (y < 0) {
     yMov = 1;
   }
-  ctx.beginPath();
-  ctx.clearRect(x, y, 100, 100);
-  ctx.moveTo(x, y);
-  ctx.fillRect(x, y, 100, 100);
+  ctx.translate(x, y, 100, 100);
 }
 window.onload = function() {
-  setInterval("move()", 5);
   on_resize();
   move();
+  setInterval("move()", 5);
 }
 window.onresize = function() {
   on_resize();
