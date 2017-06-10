@@ -64,3 +64,10 @@ Activity        File Name
                 modified previous image viewer with capacity to be responsive
 
 8           CountriesAndPictures/
+
+Day 3
+Activity        File Name
+
+1           hover_transformations.html
+
+2           transition_via_javascript.html
