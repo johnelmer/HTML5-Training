@@ -76,8 +76,6 @@ function popup1(text) {
   span.appendChild(document.createTextNode('OK'));
   button.appendChild(span);
   document.body.appendChild(popup);
-  // fadePopup();
-
   var picURL = '';
   button.onclick = function() {
       picURL = document.getElementById('inputURL').value;

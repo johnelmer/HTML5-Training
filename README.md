@@ -75,3 +75,5 @@ Activity        File Name
 3           FadeChangeImages/
 
 4           ImageViewer/
+
+5           css_animation.html
