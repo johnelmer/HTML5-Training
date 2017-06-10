@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Trigerring Transitions via Javascript</title>
+    <style>
+      body {
+        margin: 0px;
+        display: table;
+        width: 100%;
+        height: 100%;
+      }
+      #container {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+      #myimg {
+        transition: 1s;
+        -webkit-transform: 1s;
+      }
+      #buttons {
+        position: fixed;
+        left: 8px;
+        top: 8px;
+      }
+    </style>
+    <script>
+      function onTransitionEnd() {
+        document.getElementById('status').innerHTML = 'Not moving';
+      }
+      window.onload = function() {
+        document.getElementById('myimg').addEventListener('transitionend', onTransitionEnd, false);
+        document.getElementById('myimg').addEventListener('webkitTransitionEnd', onTransitionEnd, false);
+        document.getElementById('deg0').onclick = function() {
+          document.getElementById('myimg').style.transform = 'rotate(0deg)';
+          document.getElementById('myimg').style.webkitTransform = 'rotate(0deg)';
+          document.getElementById('status').innerHTML = 'MOVING';
+        }
+        document.getElementById('deg180').onclick = function() {
+          document.getElementById('myimg').style.transform = 'rotate(180deg)';
+          document.getElementById('myimg').style.webkitTransform = 'rotate(180deg)';
+          document.getElementById('status').innerHTML = 'MOVING';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="container">
+      <img id="myimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIXEFUWpUff9l-RhSu963KRxUES07c0gr9WXxbkCZ4qFjZi1S4ipMstHKv">
+    </div>
+    <div id="buttons">
+      <button id="deg0">0 degree</button>
+      <button id="deg180">180 degree</button>
+      <p id="status">Not Moving</p>
+    </div>
+  </body>
+</html>
