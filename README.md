@@ -88,6 +88,8 @@ Activity        File Name
 
                 modified to graph three different curves
 
-10          FourSquares/
+10          SuperSquares/
 
                 add super squares
+
+11          MovingBall/
