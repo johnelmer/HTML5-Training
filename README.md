@@ -83,3 +83,7 @@ Activity        File Name
 7           canvas_with_timer.html
 
 8           MovingRectangle/
+
+9           GraphDrawing/
+
+                modified to graph three different curves

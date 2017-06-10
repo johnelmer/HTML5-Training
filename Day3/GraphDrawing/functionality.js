@@ -1,5 +1,4 @@
 window.onload = function() {
-  // console.log('here');
   on_resize();
   drawXaxis();
   drawYaxis();
@@ -20,8 +19,8 @@ function drawXaxis() {
   var c = document.getElementById("mycanvas");
   var ctx = c.getContext("2d");
   ctx.beginPath();
-  ctx.moveTo(0, c.height/2);
-  ctx.lineTo(c.width, c.height/2);
+  ctx.moveTo(0, c.height / 2);
+  ctx.lineTo(c.width, c.height / 2);
   ctx.strokeStyle = "#000000";
   ctx.stroke();
 }
@@ -37,13 +36,27 @@ function drawYaxis() {
 function drawCurve() {
   var c = document.getElementById("mycanvas");
   var ctx = c.getContext("2d");
-  var x = c.width /2;
-  var y = c.height /2;
+  var x = c.width / 2;
+  var y = c.height / 2;
   ctx.beginPath();
   for (var i = -x; i < x; i++) {
     var fx = i * i;
     ctx.lineTo(x + i, y - fx);
   }
   ctx.strokeStyle = "#ff0000";
+  ctx.stroke();
+  ctx.beginPath();
+  for (var i = -x; i < x; i++) {
+    var fx = i * i * i;
+    ctx.lineTo(x + i, y - fx);
+  }
+  ctx.strokeStyle = "#00ff00";
+  ctx.stroke();
+  ctx.beginPath();
+  for (var i = -x; i < x; i++) {
+    var fx = i;
+    ctx.lineTo(x + i, y - fx);
+  }
+  ctx.strokeStyle = "#0000ff";
   ctx.stroke();
 }
