@@ -81,3 +81,5 @@ Activity        File Name
 6           canvas_sample.html
 
 7           canvas_with_timer.html
+
+8           MovingRectangle/
