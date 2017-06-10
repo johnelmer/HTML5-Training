@@ -89,3 +89,5 @@ Activity        File Name
                 modified to graph three different curves
 
 10          FourSquares/
+
+                add super squares
